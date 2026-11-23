@@ -221,6 +221,3 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-
-# Generated image datasets are reproducible and can be large.
-data/generated/
