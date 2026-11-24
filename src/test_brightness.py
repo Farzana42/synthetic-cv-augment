@@ -17,3 +17,9 @@ from src.augment import add_blur
 blurred = add_blur(original, 25)
 Image.fromarray(blurred).save("data/output/blur_test.jpg")
 print("Saved data/output/blur_test.jpg")
+
+from src.augment import add_glare
+
+glare = add_glare(original)
+Image.fromarray(glare).save("data/output/glare_test.jpg")
+print("Saved data/output/glare_test.jpg")
